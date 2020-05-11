@@ -1,1 +1,0 @@
-Commented copyfile of channels with too few spikes.
