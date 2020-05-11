@@ -1,0 +1,10 @@
+mcd name stream
+Problem with replace artifact ANA folders solved
+mfr data save
+PTSD artifact
+waitbar improved for matlab2014
+Join Recording phase updated (spike shapes)
+BurstinessIndex
+HyBrainware_Converter
+
+

@@ -1,0 +1,5 @@
+repo: 270228ac9365c268e45316202b4f23aa9e7636aa
+node: ceacdbe312e32babf4c6892c05c02b977cfe8e50
+branch: v 3.9.1
+latesttag: Version given to D. Ghezzi for spike detection
+latesttagdistance: 4

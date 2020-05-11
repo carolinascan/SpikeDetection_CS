@@ -1,0 +1,250 @@
+<deployment-project plugin="plugin.apptool" plugin-version="1.0">
+  <configuration build-checksum="2332388782" file="D:\SpyCode\SpyCode.prj" location="D:\SpyCode" name="SpyCode" target="target.mlapps" target-name="Package App">
+    <param.appname>SpyCode</param.appname>
+    <param.authnamewatermark>Valentina Pasquale</param.authnamewatermark>
+    <param.email />
+    <param.company>IIT</param.company>
+    <param.icon>${PROJECT_ROOT}\SpyCode_resources\icon_24.png</param.icon>
+    <param.icons>
+      <file>${PROJECT_ROOT}\SpyCode_resources\icon_48.png</file>
+      <file>${PROJECT_ROOT}\SpyCode_resources\icon_24.png</file>
+      <file>${PROJECT_ROOT}\SpyCode_resources\icon_16.png</file>
+    </param.icons>
+    <param.summary>modified by Alberto Averna</param.summary>
+    <param.description />
+    <param.screenshot>${PROJECT_ROOT}\SpyCode_logo.png</param.screenshot>
+    <param.version>3.9.1</param.version>
+    <param.products.name>
+      <item>MATLAB</item>
+      <item>Curve Fitting Toolbox</item>
+      <item>Signal Processing Toolbox</item>
+    </param.products.name>
+    <param.products.id>
+      <item>'1'</item>
+      <item>'60'</item>
+      <item>'8'</item>
+    </param.products.id>
+    <param.products.version>
+      <item>8.4</item>
+      <item>3.5</item>
+      <item>6.22</item>
+    </param.products.version>
+    <param.platforms>
+      <item>win64</item>
+    </param.platforms>
+    <param.output>${PROJECT_ROOT}\SpyCode.mlappinstall</param.output>
+    <param.guid>33c08d2f-d7c7-4156-93e3-ffc2e915b667</param.guid>
+    <unset>
+      <param.email />
+      <param.description />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}\SpyCode.m</file>
+    </fileset.main>
+    <fileset.depfun>
+      <file>${PROJECT_ROOT}\01_Conversion\1_MCDConversion\convertOnExtension_ns.m</file>
+      <file>${PROJECT_ROOT}\01_Conversion\1_MCDConversion\create_datmatNCards_ns.m</file>
+      <file>${PROJECT_ROOT}\01_Conversion\1_MCDConversion\deleteBasedOnExtension.m</file>
+      <file>${PROJECT_ROOT}\01_Conversion\1_MCDConversion\displayChosenConditions.m</file>
+      <file>${PROJECT_ROOT}\01_Conversion\1_MCDConversion\extractedFilesToConvertNamesChoiceWindow.fig</file>
+      <file>${PROJECT_ROOT}\01_Conversion\1_MCDConversion\extractedFilesToConvertNamesChoiceWindow.m</file>
+      <file>${PROJECT_ROOT}\01_Conversion\1_MCDConversion\extractFilesNames.m</file>
+      <file>${PROJECT_ROOT}\01_Conversion\1_MCDConversion\extractFilesTypesMcd_ns.m</file>
+      <file>${PROJECT_ROOT}\01_Conversion\1_MCDConversion\extractNumberChannels.m</file>
+      <file>${PROJECT_ROOT}\01_Conversion\1_MCDConversion\generateExpNames.m</file>
+      <file>${PROJECT_ROOT}\01_Conversion\1_MCDConversion\genOutputFolders.m</file>
+      <file>${PROJECT_ROOT}\01_Conversion\1_MCDConversion\helpFigure.fig</file>
+      <file>${PROJECT_ROOT}\01_Conversion\1_MCDConversion\helpFigure.m</file>
+      <file>${PROJECT_ROOT}\01_Conversion\1_MCDConversion\MAIN_MultipleConverter.m</file>
+      <file>${PROJECT_ROOT}\01_Conversion\1_MCDConversion\multipleConversionWindow.fig</file>
+      <file>${PROJECT_ROOT}\01_Conversion\1_MCDConversion\multipleConversionWindow.m</file>
+      <file>${PROJECT_ROOT}\01_Conversion\2_MedConversion\convertAllChOneMedFile.m</file>
+      <file>${PROJECT_ROOT}\01_Conversion\3_SpikeStreamConversion\CONV_mcd_data_sm.m</file>
+      <file>${PROJECT_ROOT}\01_Conversion\3_SpikeStreamConversion\mcd_spike_converter.m</file>
+      <file>${PROJECT_ROOT}\01_Conversion\3_SpikeStreamConversion\mcdSpikeConverter_getParam.m</file>
+      <file>${PROJECT_ROOT}\01_Conversion\4_neuroShare_interface\Matlab_Interface\import\menu_ImportMCD.m</file>
+      <file>${PROJECT_ROOT}\01_Conversion\4_neuroShare_interface\Matlab_Interface\ns_matInterface\ns_CloseFile.m</file>
+      <file>${PROJECT_ROOT}\01_Conversion\4_neuroShare_interface\Matlab_Interface\ns_matInterface\ns_GetAnalogData.m</file>
+      <file>${PROJECT_ROOT}\01_Conversion\4_neuroShare_interface\Matlab_Interface\ns_matInterface\ns_GetAnalogInfo.m</file>
+      <file>${PROJECT_ROOT}\01_Conversion\4_neuroShare_interface\Matlab_Interface\ns_matInterface\ns_GetEntityInfo.m</file>
+      <file>${PROJECT_ROOT}\01_Conversion\4_neuroShare_interface\Matlab_Interface\ns_matInterface\ns_GetEventData.m</file>
+      <file>${PROJECT_ROOT}\01_Conversion\4_neuroShare_interface\Matlab_Interface\ns_matInterface\ns_GetEventInfo.m</file>
+      <file>${PROJECT_ROOT}\01_Conversion\4_neuroShare_interface\Matlab_Interface\ns_matInterface\ns_GetFileInfo.m</file>
+      <file>${PROJECT_ROOT}\01_Conversion\4_neuroShare_interface\Matlab_Interface\ns_matInterface\ns_GetSegmentData.m</file>
+      <file>${PROJECT_ROOT}\01_Conversion\4_neuroShare_interface\Matlab_Interface\ns_matInterface\ns_GetSegmentInfo.m</file>
+      <file>${PROJECT_ROOT}\01_Conversion\4_neuroShare_interface\Matlab_Interface\ns_matInterface\ns_GetSegmentSourceInfo.m</file>
+      <file>${PROJECT_ROOT}\01_Conversion\4_neuroShare_interface\Matlab_Interface\ns_matInterface\ns_OpenFile.m</file>
+      <file>${PROJECT_ROOT}\01_Conversion\4_neuroShare_interface\Matlab_Interface\ns_matInterface\ns_SetLibrary.m</file>
+      <file>${PROJECT_ROOT}\01_Conversion\4_neuroShare_interface\Mex_Sources\mexprog.mexw64</file>
+      <file>${PROJECT_ROOT}\02_Pre-processing\4_ReplaceArtefact\old\find_ttl_pulses.m</file>
+      <file>${PROJECT_ROOT}\03_SpikeDetection\1_SpikeDetection and Thresholds\peak_detectionOK.m</file>
+      <file>${PROJECT_ROOT}\03_SpikeDetection\1_SpikeDetection and Thresholds\SpikeDetection_mainScripts\MAIN_mat2pkd_PTSD_autThComp.m</file>
+      <file>${PROJECT_ROOT}\03_SpikeDetection\1_SpikeDetection and Thresholds\SpikeDetection_subScripts\autComputTh.m</file>
+      <file>${PROJECT_ROOT}\03_SpikeDetection\1_SpikeDetection and Thresholds\SpikeDetection_subScripts\ComputeThresholdGUI.m</file>
+      <file>${PROJECT_ROOT}\03_SpikeDetection\1_SpikeDetection and Thresholds\SpikeDetection_subScripts\delartcontr.m</file>
+      <file>${PROJECT_ROOT}\03_SpikeDetection\1_SpikeDetection and Thresholds\SpikeDetection_subScripts\find_artefacts_analogRawData.m</file>
+      <file>${PROJECT_ROOT}\03_SpikeDetection\1_SpikeDetection and Thresholds\SpikeDetection_subScripts\find_artefacts_spikeTrain.m</file>
+      <file>${PROJECT_ROOT}\03_SpikeDetection\1_SpikeDetection and Thresholds\SpikeDetection_subScripts\MEX SpikeDetection\SpikeDetection_PTSD_core.mexw64</file>
+      <file>${PROJECT_ROOT}\03_SpikeDetection\1_SpikeDetection and Thresholds\SpikeDetection_subScripts\peak_detection_PTSD_mex_autThComp.m</file>
+      <file>${PROJECT_ROOT}\03_SpikeDetection\1_SpikeDetection and Thresholds\SpikeDetection_subScripts\peak_detection_PTSD_mex_autThComp_VP.m</file>
+      <file>${PROJECT_ROOT}\04_FilePlot\RasterPlotJpg\plotraster.m</file>
+      <file>${PROJECT_ROOT}\05_SpikeAnalysis\createSpikeAnalysisfolder.m</file>
+      <file>${PROJECT_ROOT}\05_SpikeAnalysis\oldISI\f_single_IBIh_Michela.m</file>
+      <file>${PROJECT_ROOT}\05_SpikeAnalysis\oldISI\f_single_ISIh_Michela.m</file>
+      <file>${PROJECT_ROOT}\06_PSTH\computePSTH.m</file>
+      <file>${PROJECT_ROOT}\06_PSTH\psth.m</file>
+      <file>${PROJECT_ROOT}\06_PSTH\PSTHplot\IsListStimOk.m</file>
+      <file>${PROJECT_ROOT}\06_PSTH\PSTHplot\uigetfolderinfo.m</file>
+      <file>${PROJECT_ROOT}\07_BurstDetection\oldBD\BurstDetection.m</file>
+      <file>${PROJECT_ROOT}\09_xCorr\buildcorrelogram.m</file>
+      <file>${PROJECT_ROOT}\09_xCorr\buildcorrelogrambe.m</file>
+      <file>${PROJECT_ROOT}\09_xCorr\crosscorrelogram2.m</file>
+      <file>${PROJECT_ROOT}\09_xCorr\initcorr.m</file>
+      <file>${PROJECT_ROOT}\09_xCorr\plot3Dcorrelogram.m</file>
+      <file>${PROJECT_ROOT}\09_xCorr\plot_array_modVale.m</file>
+      <file>${PROJECT_ROOT}\09_xCorr\plotmeancorrelogram.m</file>
+      <file>${PROJECT_ROOT}\09_xCorr\uigetfoldername.m</file>
+      <file>${PROJECT_ROOT}\09_xCorr\uigetfoldernameBE.m</file>
+      <file>${PROJECT_ROOT}\10_AdditionalTools\1_aVaGUI_1.1.7\aVa\aVaIEI\aVaIEI.m</file>
+      <file>${PROJECT_ROOT}\10_AdditionalTools\1_aVaGUI_1.1.7\aVa\aVaIEI\aVaIEI_createSaveFigure.m</file>
+      <file>${PROJECT_ROOT}\10_AdditionalTools\1_aVaGUI_1.1.7\aVa\aVaIEI\aVaIEI_hist.m</file>
+      <file>${PROJECT_ROOT}\10_AdditionalTools\1_aVaGUI_1.1.7\aVa\aVaIEI\aVaIEI_mainProcessing.m</file>
+      <file>${PROJECT_ROOT}\10_AdditionalTools\1_aVaGUI_1.1.7\aVa\aVaIEI\aVaIEI_median.m</file>
+      <file>${PROJECT_ROOT}\10_AdditionalTools\1_aVaGUI_1.1.7\aVa\aVaIEI\aVaIEI_uigetinfo.m</file>
+      <file>${PROJECT_ROOT}\10_AdditionalTools\1_aVaGUI_1.1.7\aVa\aVaIEI\calcIEImean.m</file>
+      <file>${PROJECT_ROOT}\10_AdditionalTools\1_aVaGUI_1.1.7\aVa\aVaIMT\aVaIMT.m</file>
+      <file>${PROJECT_ROOT}\10_AdditionalTools\1_aVaGUI_1.1.7\aVa\aVaIMT\aVaIMT_createSaveFigure.m</file>
+      <file>${PROJECT_ROOT}\10_AdditionalTools\1_aVaGUI_1.1.7\aVa\aVaIMT\aVaIMT_fitting.m</file>
+      <file>${PROJECT_ROOT}\10_AdditionalTools\1_aVaGUI_1.1.7\aVa\aVaIMT\aVaIMT_mainProcessing.m</file>
+      <file>${PROJECT_ROOT}\10_AdditionalTools\1_aVaGUI_1.1.7\aVa\aVaIMT\aVaIMT_preprocessFit.m</file>
+      <file>${PROJECT_ROOT}\10_AdditionalTools\1_aVaGUI_1.1.7\aVa\aVaIMT\aVaIMT_uigetinfo.m</file>
+      <file>${PROJECT_ROOT}\10_AdditionalTools\1_aVaGUI_1.1.7\aVa\aVaMain\aVa.m</file>
+      <file>${PROJECT_ROOT}\10_AdditionalTools\1_aVaGUI_1.1.7\aVa\aVaMain\aVa_convert2SamplesNumber.m</file>
+      <file>${PROJECT_ROOT}\10_AdditionalTools\1_aVaGUI_1.1.7\aVa\aVaMain\aVa_createFigureAllBins.m</file>
+      <file>${PROJECT_ROOT}\10_AdditionalTools\1_aVaGUI_1.1.7\aVa\aVaMain\aVa_createSaveFigure.m</file>
+      <file>${PROJECT_ROOT}\10_AdditionalTools\1_aVaGUI_1.1.7\aVa\aVaMain\aVa_expBinning.m</file>
+      <file>${PROJECT_ROOT}\10_AdditionalTools\1_aVaGUI_1.1.7\aVa\aVaMain\aVa_fitting.m</file>
+      <file>${PROJECT_ROOT}\10_AdditionalTools\1_aVaGUI_1.1.7\aVa\aVaMain\aVa_getSamplesNumber.m</file>
+      <file>${PROJECT_ROOT}\10_AdditionalTools\1_aVaGUI_1.1.7\aVa\aVaMain\aVa_mainProcessing.m</file>
+      <file>${PROJECT_ROOT}\10_AdditionalTools\1_aVaGUI_1.1.7\aVa\aVaMain\aVa_preprocessFit.m</file>
+      <file>${PROJECT_ROOT}\10_AdditionalTools\1_aVaGUI_1.1.7\aVa\aVaMain\aVa_uigetinfo.m</file>
+      <file>${PROJECT_ROOT}\10_AdditionalTools\1_aVaGUI_1.1.7\aVa\aVaMain\calcBranchParam2.m</file>
+      <file>${PROJECT_ROOT}\10_AdditionalTools\1_aVaGUI_1.1.7\aVa\aVaRescaled\aVaRS.m</file>
+      <file>${PROJECT_ROOT}\10_AdditionalTools\1_aVaGUI_1.1.7\aVa\aVaRescaled\aVaRS_createSaveFigure.m</file>
+      <file>${PROJECT_ROOT}\10_AdditionalTools\1_aVaGUI_1.1.7\aVa\aVaRescaled\aVaRS_fitting.m</file>
+      <file>${PROJECT_ROOT}\10_AdditionalTools\1_aVaGUI_1.1.7\aVa\aVaRescaled\aVaRS_mainProcessing.m</file>
+      <file>${PROJECT_ROOT}\10_AdditionalTools\1_aVaGUI_1.1.7\aVa\aVaRescaled\aVaRS_preprocessFit.m</file>
+      <file>${PROJECT_ROOT}\10_AdditionalTools\1_aVaGUI_1.1.7\aVa\aVaRescaled\aVaRS_uigetinfo.m</file>
+      <file>${PROJECT_ROOT}\10_AdditionalTools\1_aVaGUI_1.1.7\aVaGUI.fig</file>
+      <file>${PROJECT_ROOT}\10_AdditionalTools\1_aVaGUI_1.1.7\aVaGUI.m</file>
+      <file>${PROJECT_ROOT}\11_MultipleAnalysis\multAnAva\MAIN_multAnAva.m</file>
+      <file>${PROJECT_ROOT}\11_MultipleAnalysis\multAnAva\MAIN_multipleAva.m</file>
+      <file>${PROJECT_ROOT}\11_MultipleAnalysis\multAnAva\MAIN_multipleAvaIEI.m</file>
+      <file>${PROJECT_ROOT}\11_MultipleAnalysis\multAnAva\multAnAvaWindow.fig</file>
+      <file>${PROJECT_ROOT}\11_MultipleAnalysis\multAnAva\multAnAvaWindow.m</file>
+      <file>${PROJECT_ROOT}\11_MultipleAnalysis\multAnAva\multipleAva.m</file>
+      <file>${PROJECT_ROOT}\11_MultipleAnalysis\multAnAva\multipleAvaIEI.m</file>
+      <file>${PROJECT_ROOT}\11_MultipleAnalysis\multAnBurstAnalysis\MAIN_multAnBurstAnalysis.m</file>
+      <file>${PROJECT_ROOT}\11_MultipleAnalysis\multAnBurstAnalysis\multAnBurAnBurDetect.m</file>
+      <file>${PROJECT_ROOT}\11_MultipleAnalysis\multAnBurstAnalysis\multAnBurAnMainStatRep.m</file>
+      <file>${PROJECT_ROOT}\11_MultipleAnalysis\multAnBurstAnalysis\multAnBurAnMainStatRepMean.m</file>
+      <file>${PROJECT_ROOT}\11_MultipleAnalysis\multAnBurstAnalysis\multAnBurAnPlotHistPercRandSpikes.m</file>
+      <file>${PROJECT_ROOT}\11_MultipleAnalysis\multAnBurstAnalysis\multAnBurAnPlotMulIBI8x8.m</file>
+      <file>${PROJECT_ROOT}\11_MultipleAnalysis\multAnCCorr\compCCorrParam.m</file>
+      <file>${PROJECT_ROOT}\11_MultipleAnalysis\multAnCCorr\MAIN_multAnCrossCorrelation.m</file>
+      <file>${PROJECT_ROOT}\11_MultipleAnalysis\multAnCCorr\multAnCCorrParam.m</file>
+      <file>${PROJECT_ROOT}\11_MultipleAnalysis\multAnCCorr\multAnCCorrPlot3DCorr.m</file>
+      <file>${PROJECT_ROOT}\11_MultipleAnalysis\multAnCCorr\multAnCCorrPlotMeanCorr.m</file>
+      <file>${PROJECT_ROOT}\11_MultipleAnalysis\multAnCCorr\plotxcorrAnalysisHist.m</file>
+      <file>${PROJECT_ROOT}\11_MultipleAnalysis\multAnCCorr\savePlotCCorrParam.m</file>
+      <file>${PROJECT_ROOT}\11_MultipleAnalysis\multAnMAIN\MAIN_MultipleAnalysis.m</file>
+      <file>${PROJECT_ROOT}\11_MultipleAnalysis\multAnMAIN\multipleAnalysisWindow.fig</file>
+      <file>${PROJECT_ROOT}\11_MultipleAnalysis\multAnMAIN\multipleAnalysisWindow.m</file>
+      <file>${PROJECT_ROOT}\11_MultipleAnalysis\multAnPeakDetection\MAIN_multAnPeakDetection_autThCompRTSD.m</file>
+      <file>${PROJECT_ROOT}\11_MultipleAnalysis\multAnPlot\MAIN_multAnPlot.m</file>
+      <file>${PROJECT_ROOT}\11_MultipleAnalysis\multAnPsth\MAIN_multAnPsth.m</file>
+      <file>${PROJECT_ROOT}\11_MultipleAnalysis\multAnPsth\multAnPsthCompArea.m</file>
+      <file>${PROJECT_ROOT}\11_MultipleAnalysis\multAnPsth\multAnPsthMultPlot.m</file>
+      <file>${PROJECT_ROOT}\11_MultipleAnalysis\multAnPsth\multAnPsthMultPlot8x8.m</file>
+      <file>${PROJECT_ROOT}\11_MultipleAnalysis\multAnPsth\multAnPsthPlotStimRaster.m</file>
+      <file>${PROJECT_ROOT}\11_MultipleAnalysis\multAnPsth\multAnPsthPsthLatency.m</file>
+      <file>${PROJECT_ROOT}\11_MultipleAnalysis\multAnSpikeAnalysis\MAIN_multAnSpikeAnalysis.m</file>
+      <file>${PROJECT_ROOT}\11_MultipleAnalysis\multAnSpikeAnalysis\multAnSpAnAfr.m</file>
+      <file>${PROJECT_ROOT}\11_MultipleAnalysis\multAnSpikeAnalysis\multAnSpAnMfr.m</file>
+      <file>${PROJECT_ROOT}\11_MultipleAnalysis\multAnSpikeAnalysis\multAnSpAnPloMujltIsi8x8.m</file>
+      <file>${PROJECT_ROOT}\11_MultipleAnalysis\multAnUtilities\displayMultipleAnalysisChosenConditions.m</file>
+      <file>${PROJECT_ROOT}\11_MultipleAnalysis\multAnUtilities\experimentParametersWindow.fig</file>
+      <file>${PROJECT_ROOT}\11_MultipleAnalysis\multAnUtilities\experimentParametersWindow.m</file>
+      <file>${PROJECT_ROOT}\11_MultipleAnalysis\multAnUtilities\extractedNamesChoiceWindow.fig</file>
+      <file>${PROJECT_ROOT}\11_MultipleAnalysis\multAnUtilities\extractedNamesChoiceWindow.m</file>
+      <file>${PROJECT_ROOT}\11_MultipleAnalysis\multAnUtilities\extractExperimentFoldersNames.m</file>
+      <file>${PROJECT_ROOT}\11_MultipleAnalysis\multAnUtilities\extractFoldersNames.m</file>
+      <file>${PROJECT_ROOT}\11_MultipleAnalysis\multAnUtilities\extractSpecFoldPath.m</file>
+      <file>${PROJECT_ROOT}\11_MultipleAnalysis\multAnUtilities\helpMuFigure.fig</file>
+      <file>${PROJECT_ROOT}\11_MultipleAnalysis\multAnUtilities\helpMuFigure.m</file>
+      <file>${PROJECT_ROOT}\11_MultipleAnalysis\multAnUtilities\waitWindow.fig</file>
+      <file>${PROJECT_ROOT}\11_MultipleAnalysis\multAnUtilities\waitWindow.m</file>
+      <file>${PROJECT_ROOT}\12_Utilities\@datastrm\ad2muvolt.m</file>
+      <file>${PROJECT_ROOT}\12_Utilities\@datastrm\contents.m</file>
+      <file>${PROJECT_ROOT}\12_Utilities\@datastrm\datastrm.m</file>
+      <file>${PROJECT_ROOT}\12_Utilities\@datastrm\delete.m</file>
+      <file>${PROJECT_ROOT}\12_Utilities\@datastrm\display.m</file>
+      <file>${PROJECT_ROOT}\12_Utilities\@datastrm\getfield.m</file>
+      <file>${PROJECT_ROOT}\12_Utilities\@datastrm\getfileindex.m</file>
+      <file>${PROJECT_ROOT}\12_Utilities\@datastrm\getfileindexspikes.m</file>
+      <file>${PROJECT_ROOT}\12_Utilities\@datastrm\getpos.m</file>
+      <file>${PROJECT_ROOT}\12_Utilities\@datastrm\getstreamnumber.m</file>
+      <file>${PROJECT_ROOT}\12_Utilities\@datastrm\isfield.m</file>
+      <file>${PROJECT_ROOT}\12_Utilities\@datastrm\nextdata.m</file>
+      <file>${PROJECT_ROOT}\12_Utilities\@datastrm\nextraw.m</file>
+      <file>${PROJECT_ROOT}\12_Utilities\@datastrm\nextspikes.m</file>
+      <file>${PROJECT_ROOT}\12_Utilities\@datastrm\nextsweep.m</file>
+      <file>${PROJECT_ROOT}\12_Utilities\@datastrm\plotmea.m</file>
+      <file>${PROJECT_ROOT}\12_Utilities\@datastrm\rdrawhd.m</file>
+      <file>${PROJECT_ROOT}\12_Utilities\@datastrm\rdrawhd_silent.m</file>
+      <file>${PROJECT_ROOT}\12_Utilities\@datastrm\segregate.m</file>
+      <file>${PROJECT_ROOT}\12_Utilities\@datastrm\setfield.m</file>
+      <file>${PROJECT_ROOT}\12_Utilities\@datastrm\setid.m</file>
+      <file>${PROJECT_ROOT}\12_Utilities\@datastrm\setpos.m</file>
+      <file>${PROJECT_ROOT}\12_Utilities\@datastrm\setpos_silent.m</file>
+      <file>${PROJECT_ROOT}\12_Utilities\createresultfolder.m</file>
+      <file>${PROJECT_ROOT}\12_Utilities\dirr.m</file>
+      <file>${PROJECT_ROOT}\12_Utilities\EndOfProcessing.m</file>
+      <file>${PROJECT_ROOT}\12_Utilities\lmin-lmax\clr.m</file>
+      <file>${PROJECT_ROOT}\12_Utilities\selectfolder.m</file>
+      <file>${PROJECT_ROOT}\12_Utilities\stderror.m</file>
+      <file>${PROJECT_ROOT}\12_Utilities\uigetinfo-mich\findfolder.m</file>
+      <file>${PROJECT_ROOT}\12_Utilities\uigetinfo-mich\uigetRTSDinfo_VP.m</file>
+      <file>${PROJECT_ROOT}\12_Utilities\UtilitiesVP\createResultFolder.m</file>
+      <file>${PROJECT_ROOT}\12_Utilities\UtilitiesVP\find_expnum.m</file>
+      <file>${PROJECT_ROOT}\12_Utilities\UtilitiesVP\searchFolder.m</file>
+      <file>${PROJECT_ROOT}\12_Utilities\waitbarImproved.m</file>
+      <file>${PROJECT_ROOT}\SpyCode.fig</file>
+    </fileset.depfun>
+    <fileset.resources />
+    <fileset.package />
+    <build-deliverables>
+      <file location="D:\SpyCode" name="SpyCode.mlappinstall" optional="false">D:\SpyCode\SpyCode.mlappinstall</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>C:\Program Files\MATLAB\R2014b</root>
+      <toolboxes />
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>6.1</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>win64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
