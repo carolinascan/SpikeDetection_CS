@@ -99,4 +99,4 @@ figure
 plot(M_CH6_1), hold on, plot(M_CH6_2), plot(M_CH6_0)
 plot(M_1308_1), plot(M_1308_2)
 plot(M_R1319)
-legend('CH6-1','CH6-2','CH6-0','R1308-1','R1308-2','R1319')
+legend('CH6-1',
