@@ -5,8 +5,8 @@ idx=find(delta_train); %finds out where the deltas are
 % template is the matrix containing all the waveforms of a cluster  
 signal=zeros(1, length(delta_train)); 
 % 32 samples 
-wpre=16;
-wpost=12;
+wpre=18;
+wpost=14;
 [m,n]=size(Template);
 
 %% put 1 in every
