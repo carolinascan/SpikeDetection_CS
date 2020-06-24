@@ -14,7 +14,8 @@ for i=1:length(idx)-1
     bo=idx(i);
     choose_template=randi(m);
     template=Template(choose_template,:);
-    signal((bo-wpre-1):(bo+wpost+2))=template;
+    smoothing_window=window(@tukeywin,length(template),0.25);
+    signal((bo-wpre-1):(bo+wpost+2))=(template-mean(template)).*smoothing_window';
     templates(1,i)=choose_template; 
 end
 end 

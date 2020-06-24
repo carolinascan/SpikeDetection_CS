@@ -14,13 +14,13 @@ for jj=1:length(alfa)
         ISI_trunc_gamma=random(trunc_gamma,length(x),1);
         g(ii,:)=ISI_trunc_gamma';
         %% fitting the distribution
-%         figure(1) 
-%         hf_gamma=histfit(ISI_trunc_gamma,100,'Gamma'), hold on
-%         delete(hf_gamma(1))
-%         hf_gamma(2).LineWidth=0.2;
-%         title('Gamma distribution')
-%         xlabel('Time [s]')
-%         ylabel('Count')
+        figure(1) 
+        hf_gamma=histfit(ISI_trunc_gamma,100,'Gamma'), hold on
+        delete(hf_gamma(1))
+        hf_gamma(2).LineWidth=0.2;
+        title('Gamma distribution')
+        xlabel('Time [s]')
+        ylabel('Count')
         [k,edges]=histcounts(ISI_trunc_gamma,'Normalization','probability','BinEdges',[0:0.1:8]);
         kk=smooth(k);
         figure (2)
@@ -39,17 +39,18 @@ title('Gamma distribution')
 xlabel('Time [ms]')
 ylabel('Probability')
 %% getting statistical features
-% std_gam=std(Y_GAMMA,0,2);
-% mean_gam=mean(Y_GAMMA,2);
-% CV_gam=std_gam./mean_gam;
-% %% 
-% figure, histogram(CV_gam),xlim([0 2]), xlabel('CV gamma'), ylabel('count')
-% %% 
-% Alfa=linspace(alfa(1),alfa(end),100);
-% rad_alfa=(1./sqrt(Alfa));
-% figure, plot (Alfa(2:end),CV_gam(2:end),'*r'), hold on, plot(Alfa(2:end),rad_alfa(2:end)), legend('Cv','expected values'),
-% xlabel('alpha value')
-% title('Coefficient of variation vs Alpha values')
+std_gam=std(Y_GAMMA,0,2);
+mean_gam=mean(Y_GAMMA,2);
+CV_gam=std_gam./mean_gam;
+
+%% 
+figure, histogram(CV_gam),xlim([0 2]), xlabel('CV gamma'), ylabel('count')
+%% 
+Alfa=linspace(alfa(1),alfa(end),100);
+rad_alfa=(1./sqrt(Alfa));
+figure, plot (Alfa(2:end),CV_gam(2:end),'*r'), hold on, plot(Alfa(2:end),rad_alfa(2:end)), legend('Cv','expected values'),
+xlabel('alpha value')
+title('Coefficient of variation vs Alpha values')
 
 end
 

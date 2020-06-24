@@ -18,6 +18,7 @@ param_gamma=3;
 desired_length_gamma=number_spikes.*param_gamma; %to get to 60 s in the first distribution
 alfa=[0.1:9];
 lambda=[0.1:0.1:0.5];
+% lambda=alfa.*mfr;
 [Y_GAMMA] = gamma_distribution(desired_length_gamma,alfa,lambda);
 
 %% INVERSE GAUSSIAN 
